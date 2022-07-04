@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.brand-name {
+  font-size: 5rem;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+.flag-input {
+  width: 50%;
+  font-size: 1.4rem;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgba(17, 24, 31, 0.5);
+  color: var(--white);
+  border: 2px solid var(--off-white);
+  outline: none;
+}
+
+.flag-input::placeholder {
+  color: var(--off-white);
+}
+
+.translation {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.recent-searches-label,
+.popular-searches-label {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.recent-searches,
+.popular-searches {
+  font-size: 3rem;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.recent-search-item,
+.popular-search-item {
+  margin-right: 1vw;
+  cursor: pointer;
+}
